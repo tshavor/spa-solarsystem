@@ -19,8 +19,8 @@ el.innerHTML= planets;
 
 // 2.) Use the map method to create a new array where the first letter of each planet is capitalized
 
-var newPlanets = planets.map(function(x) {
-    return x.charAt(0).toUpperCase() + x.substr(1);
+var newPlanets = planets.map(function(capitalized) {
+    return capitalized.charAt(0).toUpperCase() + capitalized.substr(1);
 });
 console.log("newPlanets", newPlanets);
 // // // 
